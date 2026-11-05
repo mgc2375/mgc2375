@@ -1,6 +1,7 @@
 # mgc2375
 
 **About Me**
+
 MPhys - University of Exeter
 
 Lead AI Developer - HLN Group 
