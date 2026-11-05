@@ -51,7 +51,7 @@ Building offensive-security tooling around the **Model Context Protocol** — or
 ![Linker Script](https://img.shields.io/badge/Linker%20Script-6E4C13?style=flat-square)
 ![Smarty](https://img.shields.io/badge/Smarty-F0C040?style=flat-square)
 
-<sub>All 41 languages detected across every repository, public & private.</sub>
+<sub> 41 languages used across public & private repositories.</sub>
 <!-- LANGS:END -->
 
 #### Languages by repository
