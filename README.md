@@ -6,7 +6,13 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 
 **What I'm Building**
 
-Building offensive-security tooling around the **Model Context Protocol** — orchestration, recon arsenals, and live hunt dashboards.
+**What I'm Building**
+
+- **Model Context Protocols for security tooling** — orchestration, recon/OSINT arsenals, and live hunt dashboards for Web2 & Web3 bug-bounty research.
+- **Local-first AI agents** — Go and modified llama.cpp runtimes that memory-map GGUF models and offload to the GPU, reaching you across chat channels and voice with full shell, file, and MCP tool access.
+- **AI reasoning** — bidirectional node mapping with T5 sentence embeddings, a trained reachability judge over every node pair, and vec2text to decode the hard links between a start and a goal.
+- **Encryption software & hardware** — a C/C++ file-encryption core with CMake/Inno Setup builds and a TypeScript front end, extended to fingerprint-dongle hardware.
+- **Structural engineering & compliance** — Python engines producing clause-referenced structural calcs to the UK Eurocodes, and services that check CAD/Revit designs against UK construction standards.
 
 ---
 
