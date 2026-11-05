@@ -1,5 +1,14 @@
 # mgc2375
 
+**About Me**
+MPhys - University of Exeter
+
+Lead AI Developer - HLN Group 
+
+Founder/CEO - Helix Sight Technologies 
+
+Web2 & Web3 bug bounty Whitehat - various plateform
+
 **Multi-platform host account · United Kingdom** 🇬🇧
 
 Building offensive-security tooling around the **Model Context Protocol** — orchestration, recon arsenals, and live hunt dashboards.
