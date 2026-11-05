@@ -59,6 +59,7 @@ Building offensive-security tooling around the **Model Context Protocol** — or
 <!-- REPO-LANGS:START -->
 | Repository | Languages |
 |------------|-----------|
+| [iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1) | Python, JavaScript, HTML, Swift, C |
 | [investor-graph](https://github.com/mgc2375/investor-graph) | PLpgSQL, TypeScript, Python, CSS, HTML |
 | [BDNM-PLAC](https://github.com/mgc2375/BDNM-PLAC) | — *(no code detected)* |
 | [openclaw](https://github.com/mgc2375/openclaw) | TypeScript, Swift, JavaScript, Kotlin, Shell, CSS, Python, Go, Rust, Ruby, HTML, PowerShell, Dockerfile |
@@ -81,6 +82,8 @@ Building offensive-security tooling around the **Model Context Protocol** — or
 <!-- PROJECTS:START -->
 **Public**
 
+- **[iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1)** — work in progress attempt an an IOS rat chain built from the skeleton of DARKSWORD exploit but with modern CVEs and modelled after NSO Pegasus   
+  `Python` · `JavaScript` · `HTML`
 - **[investor-graph](https://github.com/mgc2375/investor-graph)** — A shared network map that shows who can introduce you to whom, without exposing anyone's contacts.   
   `PLpgSQL` · `TypeScript` · `Python`
 - **[BDNM-PLAC](https://github.com/mgc2375/BDNM-PLAC)** — The idea behind bdnm-laya: preload an agent's context along the route so it spends fewer tokens getting there.
