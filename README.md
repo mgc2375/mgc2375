@@ -2,7 +2,7 @@
 
 **About Me**
 
-MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Helix Sight Technologies | Web2 & Web3 bug bounty Whitehat - various plateform
+MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Helix Sight Technologies | Web2 & Web3 bug bounty Whitehat - various plateforms (Immunefi, Hackerone etc etc)
 
 **Multi-platform host account · United Kingdom** 🇬🇧
 
