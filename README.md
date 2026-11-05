@@ -59,43 +59,57 @@ Building offensive-security tooling around the **Model Context Protocol** — or
 <!-- REPO-LANGS:START -->
 | Repository | Languages |
 |------------|-----------|
-| [bdnm-laya](https://github.com/mgc2375/bdnm-laya) | Python, C++, Cython, C, Cuda, XSLT, CMake, Jinja, JavaScript, Fortran, Meson, HTML, CSS, Roff, Shell, PowerShell, R, ANTLR, Go Template, Perl, Thrift, Objective-C, Xonsh, Nushell, Batchfile, Linker Script, Lua, Ruby, Smarty, Go, Rust |
+| [investor-graph](https://github.com/mgc2375/investor-graph) | PLpgSQL, TypeScript, Python, CSS, HTML |
+| [BDNM-PLAC](https://github.com/mgc2375/BDNM-PLAC) | — *(no code detected)* |
+| [openclaw](https://github.com/mgc2375/openclaw) | TypeScript, Swift, JavaScript, Kotlin, Shell, CSS, Python, Go, Rust, Ruby, HTML, PowerShell, Dockerfile |
+| [lai](https://github.com/mgc2375/lai) | Go, Shell, C++, Python, HTML, CMake, Makefile |
 | [suite-cortex-mcp](https://github.com/mgc2375/suite-cortex-mcp) | JavaScript, HTML, Python, Shell |
 | [cortex-mcp](https://github.com/mgc2375/cortex-mcp) | JavaScript |
-| [BDNM-PLAC](https://github.com/mgc2375/BDNM-PLAC) | — *(no code detected)* |
-| [lai](https://github.com/mgc2375/lai) | Go, Shell, C++, Python, HTML, CMake, Makefile |
-| [investor-graph](https://github.com/mgc2375/investor-graph) | PLpgSQL, TypeScript, Python, CSS, HTML |
-| [openclaw](https://github.com/mgc2375/openclaw) | TypeScript, Swift, JavaScript, Kotlin, Shell, CSS, Python, Go, Rust, Ruby, HTML, PowerShell, Dockerfile |
+| [bdnm-laya](https://github.com/mgc2375/bdnm-laya) | Python, C++, Cython, C, Cuda, XSLT, CMake, Jinja, JavaScript, Fortran, Meson, HTML, CSS, Roff, Shell, PowerShell, R, ANTLR, Go Template, Perl, Thrift, Objective-C, Xonsh, Nushell, Batchfile, Linker Script, Lua, Ruby, Smarty, Go, Rust |
 | waitlist-site *(private)* | HTML, JavaScript |
 | uk-eurocode-calcs *(private)* | Python, JavaScript, Cython, C, HTML, Jupyter Notebook, Jinja, XSLT, CSS, C++, Fortran, PowerShell, TeX, Meson, Go Template, Roff, Shell, R, Makefile, Lua, Smarty |
 | Compliance-check *(private)* | Python, C#, JavaScript, CSS, HTML, Shell, Batchfile |
 | openclaw-gateway *(private)* | Shell |
-| Helix-Lock-Dongle *(private)* | Makefile, C++, CMake, C, Inno Setup, TypeScript |
 | Helix-Lock *(private)* | Makefile, CMake, C, C++, Inno Setup, TypeScript |
+| Helix-Lock-Dongle *(private)* | Makefile, C++, CMake, C, Inno Setup, TypeScript |
 <!-- REPO-LANGS:END -->
 
 ---
 
 ### 📦 Projects
 
+<!-- PROJECTS:START -->
 **Public**
 
-- **[cortex-mcp](https://github.com/mgc2375/cortex-mcp)** — one MCP that turns ~25 upstreams into **600+ security tools** behind a plan-then-arm safety gate.
-- **[suite-cortex-mcp](https://github.com/mgc2375/suite-cortex-mcp)** — Cortex's companion: a live hunt dashboard and recon/OSINT toolkit.
-- **[lai](https://github.com/mgc2375/lai)** — a tiny local AI agent for the terminal. Runs GGUF models on your own machine with shell, file and MCP tools, in two dependency-free binaries.
-- **[openclaw](https://github.com/mgc2375/openclaw)** — a personal AI assistant that runs on your own devices and talks to you on the channels you already use. 🦞
-- **[bdnm-laya](https://github.com/mgc2375/bdnm-laya)** — maps a path between a problem and its goal, letting an AI reason toward hard-to-reach answers instead of guessing.
-- **[BDNM-PLAC](https://github.com/mgc2375/BDNM-PLAC)** — the idea behind bdnm-laya: preload an agent's context along the route so it spends fewer tokens getting there.
-- **[investor-graph](https://github.com/mgc2375/investor-graph)** — a shared network map that shows who can introduce you to whom, without exposing anyone's contacts.
+- **[investor-graph](https://github.com/mgc2375/investor-graph)** — A shared network map that shows who can introduce you to whom, without exposing anyone's contacts.   
+  `PLpgSQL` · `TypeScript` · `Python`
+- **[BDNM-PLAC](https://github.com/mgc2375/BDNM-PLAC)** — The idea behind bdnm-laya: preload an agent's context along the route so it spends fewer tokens getting there.
+- **[openclaw](https://github.com/mgc2375/openclaw)** — A personal AI assistant that runs on your own devices and talks to you on the channels you already use. 🦞   
+  `TypeScript` · `Swift` · `JavaScript`
+- **[lai](https://github.com/mgc2375/lai)** — A tiny local AI agent for the terminal — runs GGUF models with shell, file and MCP tools, in two dependency-free binaries.   
+  `Go` · `Shell` · `C++`
+- **[suite-cortex-mcp](https://github.com/mgc2375/suite-cortex-mcp)** — Cortex's companion: a live hunt dashboard and recon/OSINT toolkit.   
+  `JavaScript` · `HTML` · `Python`
+- **[cortex-mcp](https://github.com/mgc2375/cortex-mcp)** — One MCP that turns ~25 upstreams into 600+ security tools behind a plan-then-arm safety gate.   
+  `JavaScript`
+- **[bdnm-laya](https://github.com/mgc2375/bdnm-laya)** — Maps a path between a problem and its goal, letting an AI reason toward hard-to-reach answers instead of guessing.   
+  `Python` · `C++` · `Cython`
 
 **Private** *(not linked)*
 
-- **Helix-Lock** — a desktop app for encrypting your files.
-- **Helix-Lock-Dongle** — Helix Lock unlocked by a fingerprint dongle, with messaging and file sharing built in.
-- **openclaw-gateway** — a cloud staging environment for running an OpenClaw gateway.
-- **Compliance-check** — tooling that checks building designs against UK construction standards.
-- **uk-eurocode-calcs** — structural-engineering calculations to UK Eurocode standards.
-- **waitlist-site** — a waitlist landing page on Cloudflare.
+- **waitlist-site** *(private)* — A waitlist landing page on Cloudflare.   
+  `HTML` · `JavaScript`
+- **uk-eurocode-calcs** *(private)* — Structural-engineering calculations to UK Eurocode standards.   
+  `Python` · `JavaScript` · `Cython`
+- **Compliance-check** *(private)* — Tooling that checks building designs against UK construction standards.   
+  `Python` · `C#` · `JavaScript`
+- **openclaw-gateway** *(private)* — A cloud staging environment for running an OpenClaw gateway.   
+  `Shell`
+- **Helix-Lock** *(private)* — A desktop app for encrypting your files.   
+  `Makefile` · `CMake` · `C`
+- **Helix-Lock-Dongle** *(private)* — Helix Lock with Pi fingerprint dongle support, messenger, and file share   
+  `Makefile` · `C++` · `CMake`
+<!-- PROJECTS:END -->
 
 ---
 

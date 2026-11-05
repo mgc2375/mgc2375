@@ -115,14 +115,14 @@ def main():
              and r["name"].lower() not in EXCLUDE]
 
     total = {}          # lang -> total bytes across all repos
-    per_repo = []       # (name, private, [langs by bytes desc])
+    per_repo = []       # (name, private, [langs by bytes desc], description)
     for r in repos:
         langs = api(f"/repos/{r['full_name']}/languages")
         for k, v in langs.items():
             if isinstance(v, int):
                 total[k] = total.get(k, 0) + v
         ordered = [k for k, _ in sorted(langs.items(), key=lambda x: -x[1])]
-        per_repo.append((r["name"], r["private"], ordered))
+        per_repo.append((r["name"], r["private"], ordered, (r.get("description") or "").strip()))
 
     # Language card: most-used first.
     ordered_langs = [k for k, _ in sorted(total.items(), key=lambda x: -x[1])]
@@ -133,13 +133,34 @@ def main():
     pub = [x for x in per_repo if not x[1]]
     priv = [x for x in per_repo if x[1]]
     rows = ["| Repository | Languages |", "|------------|-----------|"]
-    for name, _, langs in pub:
+    for name, _, langs, _desc in pub:
         cell = ", ".join(langs) if langs else "— *(no code detected)*"
         rows.append(f"| [{name}](https://github.com/{me}/{name}) | {cell} |")
-    for name, _, langs in priv:
+    for name, _, langs, _desc in priv:
         cell = ", ".join(langs) if langs else "— *(no code detected)*"
         rows.append(f"| {name} *(private)* | {cell} |")
     table = "\n".join(rows)
+
+    # Projects: description + top languages. Public linked, private named.
+    def project_line(name, private, langs, desc, linked):
+        head = f"**[{name}](https://github.com/{me}/{name})**" if linked else f"**{name}**"
+        if private:
+            head += " *(private)*"
+        parts = [head]
+        if desc:
+            parts.append("— " + desc)
+        tops = " · ".join(f"`{l}`" for l in langs[:3])
+        if tops:
+            parts.append("  \n  " + tops)
+        return "- " + " ".join(parts)
+
+    proj = ["**Public**\n"]
+    for name, priv_flag, langs, desc in pub:
+        proj.append(project_line(name, False, langs, desc, linked=True))
+    proj.append("\n**Private** *(not linked)*\n")
+    for name, priv_flag, langs, desc in priv:
+        proj.append(project_line(name, True, langs, desc, linked=False))
+    projects = "\n".join(proj)
 
     readme = open("README.md", encoding="utf-8").read()
 
@@ -151,6 +172,7 @@ def main():
 
     readme = replace(readme, "<!-- LANGS:START -->", "<!-- LANGS:END -->", card)
     readme = replace(readme, "<!-- REPO-LANGS:START -->", "<!-- REPO-LANGS:END -->", table)
+    readme = replace(readme, "<!-- PROJECTS:START -->", "<!-- PROJECTS:END -->", projects)
 
     open("README.md", "w", encoding="utf-8").write(readme)
     print(f"Updated: {len(ordered_langs)} languages, {len(per_repo)} repos "
