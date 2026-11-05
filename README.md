@@ -1,7 +1,7 @@
 # mgc2375
 
 **About Me**
-
+10 year old - UK 
 MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Helix Sight Technologies | Web2 & Web3 bug bounty Whitehat - various plateforms (Immunefi, Hackerone etc etc)
 
 
