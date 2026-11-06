@@ -60,7 +60,7 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 ![Linker Script](https://img.shields.io/badge/Linker%20Script-6E4C13?style=flat-square)
 ![Smarty](https://img.shields.io/badge/Smarty-F0C040?style=flat-square)
 
-<sub> 41 languages used across 15 public & private repositories.</sub>
+<sub>All 41 languages detected across every repository, public & private.</sub>
 <!-- LANGS:END -->
 
 #### Languages by repository
@@ -69,19 +69,19 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 | Repository | Languages |
 |------------|-----------|
 | [iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1) | Python, JavaScript, HTML, Swift, C |
+| [bdnm-laya](https://github.com/mgc2375/bdnm-laya) | Python, C++, Cython, C, Cuda, XSLT, CMake, Jinja, JavaScript, Fortran, Meson, HTML, CSS, Roff, Shell, PowerShell, R, ANTLR, Go Template, Perl, Thrift, Objective-C, Xonsh, Nushell, Batchfile, Linker Script, Lua, Ruby, Smarty, Go, Rust |
+| [cortex-mcp](https://github.com/mgc2375/cortex-mcp) | JavaScript |
 | [investor-graph](https://github.com/mgc2375/investor-graph) | PLpgSQL, TypeScript, Python, CSS, HTML |
 | [BDNM-PLAC](https://github.com/mgc2375/BDNM-PLAC) | — *(no code detected)* |
 | [openclaw](https://github.com/mgc2375/openclaw) | TypeScript, Swift, JavaScript, Kotlin, Shell, CSS, Python, Go, Rust, Ruby, HTML, PowerShell, Dockerfile |
 | [lai](https://github.com/mgc2375/lai) | Go, Shell, C++, Python, HTML, CMake, Makefile |
 | [suite-cortex-mcp](https://github.com/mgc2375/suite-cortex-mcp) | JavaScript, HTML, Python, Shell |
-| [cortex-mcp](https://github.com/mgc2375/cortex-mcp) | JavaScript |
-| [bdnm-laya](https://github.com/mgc2375/bdnm-laya) | Python, C++, Cython, C, Cuda, XSLT, CMake, Jinja, JavaScript, Fortran, Meson, HTML, CSS, Roff, Shell, PowerShell, R, ANTLR, Go Template, Perl, Thrift, Objective-C, Xonsh, Nushell, Batchfile, Linker Script, Lua, Ruby, Smarty, Go, Rust |
-| waitlist-site *(private)* | HTML, JavaScript |
-| uk-eurocode-calcs *(private)* | Python, JavaScript, Cython, C, HTML, Jupyter Notebook, Jinja, XSLT, CSS, C++, Fortran, PowerShell, TeX, Meson, Go Template, Roff, Shell, R, Makefile, Lua, Smarty |
-| Compliance-check *(private)* | Python, C#, JavaScript, CSS, HTML, Shell, Batchfile |
-| openclaw-gateway *(private)* | Shell |
 | Helix-Lock *(private)* | Makefile, CMake, C, C++, Inno Setup, TypeScript |
 | Helix-Lock-Dongle *(private)* | Makefile, C++, CMake, C, Inno Setup, TypeScript |
+| Compliance-check *(private)* | Python, C#, JavaScript, HTML, CSS, Shell, Batchfile |
+| waitlist-site *(private)* | HTML, JavaScript |
+| uk-eurocode-calcs *(private)* | Python, JavaScript, Cython, C, HTML, Jupyter Notebook, Jinja, XSLT, CSS, C++, Fortran, PowerShell, TeX, Meson, Go Template, Roff, Shell, R, Makefile, Lua, Smarty |
+| openclaw-gateway *(private)* | Shell |
 <!-- REPO-LANGS:END -->
 
 ---
@@ -91,8 +91,12 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 <!-- PROJECTS:START -->
 **Public**
 
-- **[iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1)** — work in progress attempt an an IOS rat chain built from the skeleton of DARKSWORD exploit but with modern CVEs and modelled after NSO Pegasus   
+- **[iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1)** — IOS rat chain built from the skeleton of DARKSWORD exploit but with modern CVEs and modelled after NSO Pegasus in terms of functionality   
   `Python` · `JavaScript` · `HTML`
+- **[bdnm-laya](https://github.com/mgc2375/bdnm-laya)** — Maps a path between a problem and its goal, letting an AI reason toward hard-to-reach answers instead of guessing.   
+  `Python` · `C++` · `Cython`
+- **[cortex-mcp](https://github.com/mgc2375/cortex-mcp)** — One MCP that turns ~25 upstreams into 600+ security tools behind a plan-then-arm safety gate.   
+  `JavaScript`
 - **[investor-graph](https://github.com/mgc2375/investor-graph)** — A shared network map that shows who can introduce you to whom, without exposing anyone's contacts.   
   `PLpgSQL` · `TypeScript` · `Python`
 - **[BDNM-PLAC](https://github.com/mgc2375/BDNM-PLAC)** — The idea behind bdnm-laya: preload an agent's context along the route so it spends fewer tokens getting there.
@@ -102,25 +106,21 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
   `Go` · `Shell` · `C++`
 - **[suite-cortex-mcp](https://github.com/mgc2375/suite-cortex-mcp)** — Cortex's companion: a live hunt dashboard and recon/OSINT toolkit.   
   `JavaScript` · `HTML` · `Python`
-- **[cortex-mcp](https://github.com/mgc2375/cortex-mcp)** — One MCP that turns ~25 upstreams into 600+ security tools behind a plan-then-arm safety gate.   
-  `JavaScript`
-- **[bdnm-laya](https://github.com/mgc2375/bdnm-laya)** — Maps a path between a problem and its goal, letting an AI reason toward hard-to-reach answers instead of guessing.   
-  `Python` · `C++` · `Cython`
 
 **Private** *(not linked)*
 
-- **waitlist-site** *(private)* — A waitlist landing page on Cloudflare.   
-  `HTML` · `JavaScript`
-- **uk-eurocode-calcs** *(private)* — Structural-engineering calculations to UK Eurocode standards.   
-  `Python` · `JavaScript` · `Cython`
-- **Compliance-check** *(private)* — Tooling that checks building designs against UK construction standards.   
-  `Python` · `C#` · `JavaScript`
-- **openclaw-gateway** *(private)* — A cloud staging environment for running an OpenClaw gateway.   
-  `Shell`
 - **Helix-Lock** *(private)* — A desktop app for encrypting your files.   
   `Makefile` · `CMake` · `C`
 - **Helix-Lock-Dongle** *(private)* — Helix Lock with Pi fingerprint dongle support, messenger, and file share   
   `Makefile` · `C++` · `CMake`
+- **Compliance-check** *(private)* — Tooling that checks building designs against UK construction standards.   
+  `Python` · `C#` · `JavaScript`
+- **waitlist-site** *(private)* — A waitlist landing page on Cloudflare.   
+  `HTML` · `JavaScript`
+- **uk-eurocode-calcs** *(private)* — Structural-engineering calculations to UK Eurocode standards.   
+  `Python` · `JavaScript` · `Cython`
+- **openclaw-gateway** *(private)* — A cloud staging environment for running an OpenClaw gateway.   
+  `Shell`
 <!-- PROJECTS:END -->
 
 ---
