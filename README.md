@@ -69,12 +69,12 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 | Repository | Languages |
 |------------|-----------|
 | [iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1) | Python, JavaScript, HTML, Swift, C |
+| [lai](https://github.com/mgc2375/lai) | Go, Shell, C++, Python, HTML, CMake, Makefile |
 | [bdnm-laya](https://github.com/mgc2375/bdnm-laya) | Python, C++, Cython, C, Cuda, XSLT, CMake, Jinja, JavaScript, Fortran, Meson, HTML, CSS, Roff, Shell, PowerShell, R, ANTLR, Go Template, Perl, Thrift, Objective-C, Xonsh, Nushell, Batchfile, Linker Script, Lua, Ruby, Smarty, Go, Rust |
 | [cortex-mcp](https://github.com/mgc2375/cortex-mcp) | JavaScript |
 | [investor-graph](https://github.com/mgc2375/investor-graph) | PLpgSQL, TypeScript, Python, CSS, HTML |
 | [BDNM-PLAC](https://github.com/mgc2375/BDNM-PLAC) | — *(no code detected)* |
 | [openclaw](https://github.com/mgc2375/openclaw) | TypeScript, Swift, JavaScript, Kotlin, Shell, CSS, Python, Go, Rust, Ruby, HTML, PowerShell, Dockerfile |
-| [lai](https://github.com/mgc2375/lai) | Go, Shell, C++, Python, HTML, CMake, Makefile |
 | [suite-cortex-mcp](https://github.com/mgc2375/suite-cortex-mcp) | JavaScript, HTML, Python, Shell |
 | Helix-Lock *(private)* | Makefile, CMake, C, C++, Inno Setup, TypeScript |
 | Helix-Lock-Dongle *(private)* | Makefile, C++, CMake, C, Inno Setup, TypeScript |
@@ -93,6 +93,8 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 
 - **[iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1)** — IOS rat chain built from the skeleton of DARKSWORD exploit but with modern CVEs and modelled after NSO Pegasus in terms of functionality   
   `Python` · `JavaScript` · `HTML`
+- **[lai](https://github.com/mgc2375/lai)** — A tiny local AI agent for the terminal — runs GGUF models with shell, file and MCP tools, in two dependency-free binaries.   
+  `Go` · `Shell` · `C++`
 - **[bdnm-laya](https://github.com/mgc2375/bdnm-laya)** — Maps a path between a problem and its goal, letting an AI reason toward hard-to-reach answers instead of guessing.   
   `Python` · `C++` · `Cython`
 - **[cortex-mcp](https://github.com/mgc2375/cortex-mcp)** — One MCP that turns ~25 upstreams into 600+ security tools behind a plan-then-arm safety gate.   
@@ -102,8 +104,6 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 - **[BDNM-PLAC](https://github.com/mgc2375/BDNM-PLAC)** — The idea behind bdnm-laya: preload an agent's context along the route so it spends fewer tokens getting there.
 - **[openclaw](https://github.com/mgc2375/openclaw)** — A personal AI assistant that runs on your own devices and talks to you on the channels you already use. 🦞   
   `TypeScript` · `Swift` · `JavaScript`
-- **[lai](https://github.com/mgc2375/lai)** — A tiny local AI agent for the terminal — runs GGUF models with shell, file and MCP tools, in two dependency-free binaries.   
-  `Go` · `Shell` · `C++`
 - **[suite-cortex-mcp](https://github.com/mgc2375/suite-cortex-mcp)** — Cortex's companion: a live hunt dashboard and recon/OSINT toolkit.   
   `JavaScript` · `HTML` · `Python`
 
