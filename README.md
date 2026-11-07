@@ -124,6 +124,11 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 <!-- PROJECTS:END -->
 
 ---
+**NOTES**
+All hardcoded endpoints of keys existing in previous repos are test key stubs and originals have been rotated. 
+Truffle Hog checks repos daily and it's compared to genuine env variables. To date no token published has ever been functional at time of public repo commit. 
+
+---
 
 ### 👤 Accounts
 
