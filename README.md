@@ -68,8 +68,8 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 <!-- REPO-LANGS:START -->
 | Repository | Languages |
 |------------|-----------|
-| [dcap](https://github.com/mgc2375/dcap) | Python |
 | [iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1) | Python, JavaScript, HTML, Swift, C |
+| [dcap](https://github.com/mgc2375/dcap) | Python |
 | [Weigh-transposition-benchmarks-](https://github.com/mgc2375/Weigh-transposition-benchmarks-) | — *(no code detected)* |
 | [lai](https://github.com/mgc2375/lai) | Go, Shell, C++, Python, HTML, CMake, Makefile |
 | [bdnm-laya](https://github.com/mgc2375/bdnm-laya) | Python, C++, Cython, C, Cuda, XSLT, CMake, Jinja, JavaScript, Fortran, Meson, HTML, CSS, Roff, Shell, PowerShell, R, ANTLR, Go Template, Perl, Thrift, Objective-C, Xonsh, Nushell, Batchfile, Linker Script, Lua, Ruby, Smarty, Go, Rust |
@@ -93,10 +93,10 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 <!-- PROJECTS:START -->
 **Public**
 
-- **[dcap](https://github.com/mgc2375/dcap)** — This is a work in progress solution to the model context protocol   
-  `Python`
 - **[iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1)** — IOS rat chain built from the skeleton of DARKSWORD exploit but with modern CVEs and modelled after NSO Pegasus in terms of functionality   
   `Python` · `JavaScript` · `HTML`
+- **[dcap](https://github.com/mgc2375/dcap)** — This is a work in progress solution to the model context protocol   
+  `Python`
 - **[Weigh-transposition-benchmarks-](https://github.com/mgc2375/Weigh-transposition-benchmarks-)** — Benchmark test for weight transposition - distillation of skills via direct weight editing executed via transposition. Testing transposition of GLM 5.3 skills into qwen 2.5 coder
 - **[lai](https://github.com/mgc2375/lai)** — A tiny local AI agent for the terminal — runs GGUF models with shell, file and MCP tools, in two dependency-free binaries.   
   `Go` · `Shell` · `C++`
