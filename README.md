@@ -78,6 +78,7 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 | [BDNM-PLAC](https://github.com/mgc2375/BDNM-PLAC) | — *(no code detected)* |
 | [openclaw](https://github.com/mgc2375/openclaw) | TypeScript, Swift, JavaScript, Kotlin, Shell, CSS, Python, Go, Rust, Ruby, HTML, PowerShell, Dockerfile |
 | [suite-cortex-mcp](https://github.com/mgc2375/suite-cortex-mcp) | JavaScript, HTML, Python, Shell |
+| iOS-27.2.1-0-click-persistent-RCE-kernel-root- *(private)* | — *(no code detected)* |
 | Helix-Lock *(private)* | Makefile, CMake, C, C++, Inno Setup, TypeScript |
 | Helix-Lock-Dongle *(private)* | Makefile, C++, CMake, C, Inno Setup, TypeScript |
 | Compliance-check *(private)* | Python, C#, JavaScript, HTML, CSS, Shell, Batchfile |
@@ -114,6 +115,7 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 
 **Private** *(not linked)*
 
+- **iOS-27.2.1-0-click-persistent-RCE-kernel-root-** *(private)* — work in progress 0-click exploit chain iOS 27.2.1 with full RCE and persistent kernel root - TBC - No full chain POC YET
 - **Helix-Lock** *(private)* — A desktop app for encrypting your files.   
   `Makefile` · `CMake` · `C`
 - **Helix-Lock-Dongle** *(private)* — Helix Lock with Pi fingerprint dongle support, messenger, and file share   
