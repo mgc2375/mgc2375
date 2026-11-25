@@ -68,6 +68,7 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 <!-- REPO-LANGS:START -->
 | Repository | Languages |
 |------------|-----------|
+| [rust-agent-runtime](https://github.com/mgc2375/rust-agent-runtime) | Rust |
 | [iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1) | Python, JavaScript, HTML, Swift, C |
 | [dcap](https://github.com/mgc2375/dcap) | Python |
 | [Weigh-transposition-benchmarks-](https://github.com/mgc2375/Weigh-transposition-benchmarks-) | — *(no code detected)* |
@@ -94,6 +95,8 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 <!-- PROJECTS:START -->
 **Public**
 
+- **[rust-agent-runtime](https://github.com/mgc2375/rust-agent-runtime)**   
+  `Rust`
 - **[iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1)** — IOS rat chain built from the skeleton of DARKSWORD exploit but with modern CVEs and modelled after NSO Pegasus in terms of functionality   
   `Python` · `JavaScript` · `HTML`
 - **[dcap](https://github.com/mgc2375/dcap)** — This is a work in progress solution to the model context protocol   
