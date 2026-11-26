@@ -121,7 +121,7 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 - **iOS-27.2.1-0-click-persistent-RCE-kernel-root-** *(private)* — work in progress 0-click exploit chain iOS 27.2.1 with full RCE and persistent kernel root - TBC - No full chain POC YET
 - **Helix-Lock** *(private)* — A desktop app for encrypting your files.   
   `Makefile` · `CMake` · `C`
-- **Helix-Lock-Dongle** *(private)* — Helix Lock with Pi fingerprint dongle support, messenger, and file share   
+- **Helix-Lock-Dongle** *(private)* — Helix Lock with fingerprint dongle support, messenger, and file share   
   `Makefile` · `C++` · `CMake`
 - **Compliance-check** *(private)* — Tooling that checks building designs against UK construction standards.   
   `Python` · `C#` · `JavaScript`
