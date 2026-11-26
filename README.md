@@ -68,6 +68,7 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 <!-- REPO-LANGS:START -->
 | Repository | Languages |
 |------------|-----------|
+| [auto-finance](https://github.com/mgc2375/auto-finance) | — *(no code detected)* |
 | [rust-agent-runtime](https://github.com/mgc2375/rust-agent-runtime) | Rust |
 | [iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1) | Python, JavaScript, HTML, Swift, C |
 | [dcap](https://github.com/mgc2375/dcap) | Python |
@@ -95,6 +96,7 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 <!-- PROJECTS:START -->
 **Public**
 
+- **[auto-finance](https://github.com/mgc2375/auto-finance)**
 - **[rust-agent-runtime](https://github.com/mgc2375/rust-agent-runtime)**   
   `Rust`
 - **[iOS-Rat-chain-26.3.1-27.1](https://github.com/mgc2375/iOS-Rat-chain-26.3.1-27.1)** — IOS rat chain built from the skeleton of DARKSWORD exploit but with modern CVEs and modelled after NSO Pegasus in terms of functionality   
@@ -121,7 +123,7 @@ MPhys - University of Exeter | Lead AI Developer - HLN Group | Founder/CEO - Hel
 - **iOS-27.2.1-0-click-persistent-RCE-kernel-root-** *(private)* — work in progress 0-click exploit chain iOS 27.2.1 with full RCE and persistent kernel root - TBC - No full chain POC YET
 - **Helix-Lock** *(private)* — A desktop app for encrypting your files.   
   `Makefile` · `CMake` · `C`
-- **Helix-Lock-Dongle** *(private)* — Helix Lock with fingerprint dongle support, messenger, and file share   
+- **Helix-Lock-Dongle** *(private)* — Helix Lock with Pi fingerprint dongle support, messenger, and file share   
   `Makefile` · `C++` · `CMake`
 - **Compliance-check** *(private)* — Tooling that checks building designs against UK construction standards.   
   `Python` · `C#` · `JavaScript`
